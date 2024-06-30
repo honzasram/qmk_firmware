@@ -1,0 +1,65 @@
+{
+    "manufacturer": "Jan Sramek",
+    "keyboard_name": "winry/winry25tf",
+    "maintainer": "honzasram",
+    "bootloader": "atmel-dfu",
+    "diode_direction": "COL2ROW",
+    "features": {
+        "bootmagic": true,
+        "command": false,
+        "console": false,
+        "extrakey": true,
+        "mousekey": false,
+        "nkro": false,
+        "rgblight": true,
+        "keylock": true
+    },
+    "ws2812": {
+        "pin": "D5"
+    },
+    "rgb_matrix": {
+      "driver": "ws2812"
+    },
+    "matrix_pins": {
+        "cols": ["F5", "C7", "B7", "B2", "B4"],
+        "rows": ["E6", "F0", "D6", "D2", "B6"]
+    },
+    "processor": "atmega32u4",
+    "url": "",
+    "usb": {
+        "device_version": "1.0.0",
+        "vid": "0xF1F1",
+        "pid": "0x0025"
+    },
+    "layouts": {
+        "LAYOUT": {
+            "layout": [
+                {"label":"K00 (E6,F5)", "x":0, "y":0},
+                {"label":"K01 (E6,C7)", "x":1, "y":0},
+                {"label":"K02 (E6,B7)", "x":2, "y":0},
+                {"label":"K03 (E6,B2)", "x":3, "y":0},
+                {"label":"K04 (E6,B4)", "x":4, "y":0},
+                {"label":"K10 (F0,F5)", "x":0, "y":1},
+                {"label":"K11 (F0,C7)", "x":1, "y":1},
+                {"label":"K12 (F0,B7)", "x":2, "y":1},
+                {"label":"K13 (F0,B2)", "x":3, "y":1},
+                {"label":"K14 (F0,B4)", "x":4, "y":1},
+                {"label":"K20 (D6,F5)", "x":0, "y":2},
+                {"label":"K21 (D6,C7)", "x":1, "y":2},
+                {"label":"K22 (D6,B7)", "x":2, "y":2},
+                {"label":"K23 (D6,B2)", "x":3, "y":2},
+                {"label":"K24 (D6,B4)", "x":4, "y":2},
+                {"label":"K30 (D2,F5)", "x":0, "y":3},
+                {"label":"K31 (D2,C7)", "x":1, "y":3},
+                {"label":"K32 (D2,B7)", "x":2, "y":3},
+                {"label":"K33 (D2,B2)", "x":3, "y":3},
+                {"label":"K34 (D2,B4)", "x":4, "y":3},
+                {"label":"K40 (B6,F5)", "x":0, "y":4},
+                {"label":"K41 (B6,C7)", "x":1, "y":4},
+                {"label":"K42 (B6,B7)", "x":2, "y":4},
+                {"label":"K43 (B6,B2)", "x":3, "y":4},
+                {"label":"K44 (B6,B4)", "x":4, "y":4}
+            ]
+        }
+    }
+}
