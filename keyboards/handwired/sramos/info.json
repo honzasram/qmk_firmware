@@ -1,0 +1,35 @@
+{
+    "keyboard_name": "winry/winry25tf",
+    "url": "",
+    "maintainer": "Jan Sramek",
+    "width": 5,
+    "height": 3,
+    "layouts": {
+        "LAYOUT": {
+            "layout": [
+                {"label":"K00 (D9,D8)",  "x":0, "y":0},
+                {"label":"K01 (D9,D4)",  "x":1, "y":0},
+                {"label":"K02 (D9,D10)", "x":2, "y":0},
+                {"label":"K03 (D9,D3)",  "x":3, "y":0},
+                {"label":"K04 (D9,D2)",  "x":4, "y":0},
+
+                {"label":"K10 (D7,D8)",  "x":0, "y":1},
+                {"label":"K11 (D7,D4)",  "x":1, "y":1},
+                {"label":"K12 (D7,D10)", "x":2, "y":1},
+                {"label":"K13 (D7,D3)",  "x":3, "y":1},
+                {"label":"K14 (D7,D2)",  "x":4, "y":1},
+                
+                {"label":"K20 (D6,D8)",  "x":0, "y":2},
+                {"label":"K21 (D6,D4)",  "x":1, "y":2},
+                {"label":"K22 (D6,D10)", "x":2, "y":2},
+                {"label":"K23 (D6,D3)",  "x":3, "y":2},
+                {"label":"K24 (D6,D2)",  "x":4, "y":2}
+            ]
+        }
+    }
+}
+
+
+
+
+
