@@ -1,17 +1,16 @@
 {
     "manufacturer": "Jan Sramek",
-    "keyboard_name": "handwired/sramos",
+    "keyboard_name": "0x2D4/3by5",
     "maintainer": "Jan Sramek",
     "bootloader": "rp2040",
     "diode_direction": "ROW2COL",
     "features": {
         "bootmagic": true,
-        "command": false,
-        "console": false,
+        "command": true,
+        "console": true,
         "extrakey": true,
         "mousekey": false,
         "nkro": true,
-        "rgblight": true,
         "keylock": false
     },
     "matrix_pins": {
@@ -26,11 +25,10 @@
       "driver": "ws2812"
     },
     "processor": "RP2040",
-    "url": "",
     "usb": {
         "device_version": "2.0.1",
-        "pid": "0xFAF0",
-        "vid": "0xBEEF"
+        "pid": "0x0002",
+        "vid": "0x02D4"
     },
     "layouts": {
         "LAYOUT": {
