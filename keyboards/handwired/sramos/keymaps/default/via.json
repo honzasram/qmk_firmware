@@ -1,0 +1,28 @@
+{
+    "name": "sramos",
+    "vendorId": "0xFAF0",
+    "productId": "0xBEEF",
+    "matrix": {
+      "rows": 3,
+      "cols": 5
+    },
+    "macros": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "encoders": []
+  }

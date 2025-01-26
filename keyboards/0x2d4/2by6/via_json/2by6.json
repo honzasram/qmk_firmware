@@ -1,0 +1,454 @@
+{
+    "name": "0x2D4/3by5",
+    "vendorId": "0x02D4",
+    "productId": "0x0001",
+    "matrix": {
+        "rows": 2,
+        "cols": 6
+    },
+    "layouts": {
+        "keymap": [
+            [
+                "0,0",
+                "0,1",
+                "0,2",
+                "0,3",
+                "0,4",
+                "0,5"
+            ],
+            [
+                "1,0",
+                "1,1",
+                "1,2",
+                "1,3",
+                "1,4",
+                "1,5"
+            ]
+        ]
+    },
+    "keycodes": [
+        "qmk_lighting"
+    ],
+    "customKeycodes": [
+        {
+            "name": "Supply_Pack",
+            "title": "Supply_Pack",
+            "shortName": "Supply_Pack"
+        },
+        {
+            "name": "Ballistic_Shield_Backpack",
+            "title": "Ballistic_Shield_Backpack",
+            "shortName": "Ballistic_Shield_Backpack"
+        },
+        {
+            "name": "Shield_Generator_Pack",
+            "title": "Shield_Generator_Pack",
+            "shortName": "Shield_Generator_Pack"
+        },
+        {
+            "name": "Jump_Pack",
+            "title": "Jump_Pack",
+            "shortName": "Jump_Pack"
+        },
+        {
+            "name": "Guard_Dog",
+            "title": "Guard_Dog",
+            "shortName": "Guard_Dog"
+        },
+        {
+            "name": "Guard_Dog_Rover",
+            "title": "Guard_Dog_Rover",
+            "shortName": "Guard_Dog_Rover"
+        },
+        {
+            "name": "Displacer_Pack",
+            "title": "Displacer_Pack",
+            "shortName": "Displacer_Pack"
+        },
+        {
+            "name": "Resupply",
+            "title": "Resupply",
+            "shortName": "Resupply"
+        },
+        {
+            "name": "Eagle_Strafing_Run",
+            "title": "Eagle_Strafing_Run",
+            "shortName": "Eagle_Strafing_Run"
+        },
+        {
+            "name": "Eagle_500kg_Bomb",
+            "title": "Eagle_500kg_Bomb",
+            "shortName": "Eagle_500kg_Bomb"
+        },
+        {
+            "name": "Eagle_110mm_Rocket_Pods",
+            "title": "Eagle_110mm_Rocket_Pods",
+            "shortName": "Eagle_110mm_Rocket_Pods"
+        },
+        {
+            "name": "Eagle_Airstrike",
+            "title": "Eagle_Airstrike",
+            "shortName": "Eagle_Airstrike"
+        },
+        {
+            "name": "Eagle_Napalm_Airstrike",
+            "title": "Eagle_Napalm_Airstrike",
+            "shortName": "Eagle_Napalm_Airstrike"
+        },
+        {
+            "name": "Eagle_Smoke_Strike",
+            "title": "Eagle_Smoke_Strike",
+            "shortName": "Eagle_Smoke_Strike"
+        },
+        {
+            "name": "Eagle_Cluster_Bomb",
+            "title": "Eagle_Cluster_Bomb",
+            "shortName": "Eagle_Cluster_Bomb"
+        },
+        {
+            "name": "Eagle_Rearm",
+            "title": "Eagle_Rearm",
+            "shortName": "Eagle_Rearm"
+        },
+        {
+            "name": "Eagle_AirtoAir_Missiles",
+            "title": "Eagle_AirtoAir_Missiles",
+            "shortName": "Eagle_AirtoAir_Missiles"
+        },
+        {
+            "name": "EM105_Defense_Wall",
+            "title": "EM105_Defense_Wall",
+            "shortName": "EM105_Defense_Wall"
+        },
+        {
+            "name": "EGL6_Trench_Wall",
+            "title": "EGL6_Trench_Wall",
+            "shortName": "EGL6_Trench_Wall"
+        },
+        {
+            "name": "FX12_Shield_Generator_Relay",
+            "title": "FX12_Shield_Generator_Relay",
+            "shortName": "FX12_Shield_Generator_Relay"
+        },
+        {
+            "name": "EMG101_HMG_Emplacement",
+            "title": "EMG101_HMG_Emplacement",
+            "shortName": "EMG101_HMG_Emplacement"
+        },
+        {
+            "name": "MD6_AntiPersonnel_Minefield",
+            "title": "MD6_AntiPersonnel_Minefield",
+            "shortName": "MD6_AntiPersonnel_Minefield"
+        },
+        {
+            "name": "MDI4_Incendiary_Mines",
+            "title": "MDI4_Incendiary_Mines",
+            "shortName": "MDI4_Incendiary_Mines"
+        },
+        {
+            "name": "Antitank_Mines",
+            "title": "Antitank_Mines",
+            "shortName": "Antitank_Mines"
+        },
+        {
+            "name": "AARC3_Tesla_Tower",
+            "title": "AARC3_Tesla_Tower",
+            "shortName": "AARC3_Tesla_Tower"
+        },
+        {
+            "name": "SSSD_Delivery",
+            "title": "SSSD_Delivery",
+            "shortName": "SSSD_Delivery"
+        },
+        {
+            "name": "Drilling_Charge",
+            "title": "Drilling_Charge",
+            "shortName": "Drilling_Charge"
+        },
+        {
+            "name": "Hellbomb",
+            "title": "Hellbomb",
+            "shortName": "Hellbomb"
+        },
+        {
+            "name": "HIVE_BREAKER_DRILL",
+            "title": "HIVE_BREAKER_DRILL",
+            "shortName": "HIVE_BREAKER_DRILL"
+        },
+        {
+            "name": "Spire_Sterilizer",
+            "title": "Spire_Sterilizer",
+            "shortName": "Spire_Sterilizer"
+        },
+        {
+            "name": "Super_Earth_Flag",
+            "title": "Super_Earth_Flag",
+            "shortName": "Super_Earth_Flag"
+        },
+        {
+            "name": "Thumper",
+            "title": "Thumper",
+            "shortName": "Thumper"
+        },
+        {
+            "name": "Prospecting_Drill",
+            "title": "Prospecting_Drill",
+            "shortName": "Prospecting_Drill"
+        },
+        {
+            "name": "Seismic_Probe",
+            "title": "Seismic_Probe",
+            "shortName": "Seismic_Probe"
+        },
+        {
+            "name": "Hive_Scanner",
+            "title": "Hive_Scanner",
+            "shortName": "Hive_Scanner"
+        },
+        {
+            "name": "Scrambler",
+            "title": "Scrambler",
+            "shortName": "Scrambler"
+        },
+        {
+            "name": "Extraction",
+            "title": "Extraction",
+            "shortName": "Extraction"
+        },
+        {
+            "name": "Reinforce",
+            "title": "Reinforce",
+            "shortName": "Reinforce"
+        },
+        {
+            "name": "Orbital_Illumination_Flare",
+            "title": "Orbital_Illumination_Flare",
+            "shortName": "Orbital_Illumination_Flare"
+        },
+        {
+            "name": "SOS_Beacon",
+            "title": "SOS_Beacon",
+            "shortName": "SOS_Beacon"
+        },
+        {
+            "name": "Upload_Data",
+            "title": "Upload_Data",
+            "shortName": "Upload_Data"
+        },
+        {
+            "name": "Carpet_Bomb",
+            "title": "Carpet_Bomb",
+            "shortName": "Carpet_Bomb"
+        },
+        {
+            "name": "Jammed_Pinata",
+            "title": "Jammed_Pinata",
+            "shortName": "Jammed_Pinata"
+        },
+        {
+            "name": "SEAF_Artillery",
+            "title": "SEAF_Artillery",
+            "shortName": "SEAF_Artillery"
+        },
+        {
+            "name": "Orbital_Precision_Strike",
+            "title": "Orbital_Precision_Strike",
+            "shortName": "Orbital_Precision_Strike"
+        },
+        {
+            "name": "Orbital_Airburst_Strike",
+            "title": "Orbital_Airburst_Strike",
+            "shortName": "Orbital_Airburst_Strike"
+        },
+        {
+            "name": "Orbital_EMS_Strike",
+            "title": "Orbital_EMS_Strike",
+            "shortName": "Orbital_EMS_Strike"
+        },
+        {
+            "name": "Orbital_120mm_HE_Barrage",
+            "title": "Orbital_120mm_HE_Barrage",
+            "shortName": "Orbital_120mm_HE_Barrage"
+        },
+        {
+            "name": "Orbital_Gas_Strike",
+            "title": "Orbital_Gas_Strike",
+            "shortName": "Orbital_Gas_Strike"
+        },
+        {
+            "name": "Orbital_380mm_HE_Barrage",
+            "title": "Orbital_380mm_HE_Barrage",
+            "shortName": "Orbital_380mm_HE_Barrage"
+        },
+        {
+            "name": "Orbital_Laser",
+            "title": "Orbital_Laser",
+            "shortName": "Orbital_Laser"
+        },
+        {
+            "name": "Orbital_Railcannon_Strike",
+            "title": "Orbital_Railcannon_Strike",
+            "shortName": "Orbital_Railcannon_Strike"
+        },
+        {
+            "name": "Orbital_Walking_Barrage",
+            "title": "Orbital_Walking_Barrage",
+            "shortName": "Orbital_Walking_Barrage"
+        },
+        {
+            "name": "Orbital_Gatling_Barrage",
+            "title": "Orbital_Gatling_Barrage",
+            "shortName": "Orbital_Gatling_Barrage"
+        },
+        {
+            "name": "Orbital_Smoke_Strike",
+            "title": "Orbital_Smoke_Strike",
+            "shortName": "Orbital_Smoke_Strike"
+        },
+        {
+            "name": "Medical_Supplies",
+            "title": "Medical_Supplies",
+            "shortName": "Medical_Supplies"
+        },
+        {
+            "name": "Autocannon",
+            "title": "Autocannon",
+            "shortName": "Autocannon"
+        },
+        {
+            "name": "Grenade_Launcher",
+            "title": "Grenade_Launcher",
+            "shortName": "Grenade_Launcher"
+        },
+        {
+            "name": "Grenade_Launcher_Incendiary",
+            "title": "Grenade_Launcher_Incendiary",
+            "shortName": "Grenade_Launcher_Incendiary"
+        },
+        {
+            "name": "Machine_Gun",
+            "title": "Machine_Gun",
+            "shortName": "Machine_Gun"
+        },
+        {
+            "name": "Stalwart",
+            "title": "Stalwart",
+            "shortName": "Stalwart"
+        },
+        {
+            "name": "Railgun",
+            "title": "Railgun",
+            "shortName": "Railgun"
+        },
+        {
+            "name": "Recoilless_Rifle",
+            "title": "Recoilless_Rifle",
+            "shortName": "Recoilless_Rifle"
+        },
+        {
+            "name": "Laser_Cannon",
+            "title": "Laser_Cannon",
+            "shortName": "Laser_Cannon"
+        },
+        {
+            "name": "Quasar_Cannon",
+            "title": "Quasar_Cannon",
+            "shortName": "Quasar_Cannon"
+        },
+        {
+            "name": "AntiMateriel_Rifle",
+            "title": "AntiMateriel_Rifle",
+            "shortName": "AntiMateriel_Rifle"
+        },
+        {
+            "name": "Expendable_AntiTank",
+            "title": "Expendable_AntiTank",
+            "shortName": "Expendable_AntiTank"
+        },
+        {
+            "name": "Commando",
+            "title": "Commando",
+            "shortName": "Commando"
+        },
+        {
+            "name": "Flamethrower",
+            "title": "Flamethrower",
+            "shortName": "Flamethrower"
+        },
+        {
+            "name": "Heavy_Machine_Gun",
+            "title": "Heavy_Machine_Gun",
+            "shortName": "Heavy_Machine_Gun"
+        },
+        {
+            "name": "Airburst_Rocket_Launcher",
+            "title": "Airburst_Rocket_Launcher",
+            "shortName": "Airburst_Rocket_Launcher"
+        },
+        {
+            "name": "Missile_Silo",
+            "title": "Missile_Silo",
+            "shortName": "Missile_Silo"
+        },
+        {
+            "name": "Spear",
+            "title": "Spear",
+            "shortName": "Spear"
+        },
+        {
+            "name": "Arc_Thrower",
+            "title": "Arc_Thrower",
+            "shortName": "Arc_Thrower"
+        },
+        {
+            "name": "Stinger",
+            "title": "Stinger",
+            "shortName": "Stinger"
+        },
+        {
+            "name": "AG16_Gatling_Sentry",
+            "title": "AG16_Gatling_Sentry",
+            "shortName": "AG16_Gatling_Sentry"
+        },
+        {
+            "name": "AMG43_Machine_Gun_Sentry",
+            "title": "AMG43_Machine_Gun_Sentry",
+            "shortName": "AMG43_Machine_Gun_Sentry"
+        },
+        {
+            "name": "AM12_Mortar_Sentry",
+            "title": "AM12_Mortar_Sentry",
+            "shortName": "AM12_Mortar_Sentry"
+        },
+        {
+            "name": "AM23_EMS_Mortar_Sentry",
+            "title": "AM23_EMS_Mortar_Sentry",
+            "shortName": "AM23_EMS_Mortar_Sentry"
+        },
+        {
+            "name": "AMLS4X_Rocket_Sentry",
+            "title": "AMLS4X_Rocket_Sentry",
+            "shortName": "AMLS4X_Rocket_Sentry"
+        },
+        {
+            "name": "AAC8_Autocannon_Sentry",
+            "title": "AAC8_Autocannon_Sentry",
+            "shortName": "AAC8_Autocannon_Sentry"
+        },
+        {
+            "name": "Extraction_Beacon",
+            "title": "Extraction_Beacon",
+            "shortName": "Extraction_Beacon"
+        },
+        {
+            "name": "EXO45_Patriot_Exosuit",
+            "title": "EXO45_Patriot_Exosuit",
+            "shortName": "EXO45_Patriot_Exosuit"
+        },
+        {
+            "name": "EXO49_Emancipator_Exosuit",
+            "title": "EXO49_Emancipator_Exosuit",
+            "shortName": "EXO49_Emancipator_Exosuit"
+        }
+    ]
+}

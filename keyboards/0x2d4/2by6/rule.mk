@@ -1,0 +1,14 @@
+
+RGBLIGHT_ENABLE = yes
+STARTUP_NUMLOCK_ON = yes
+LTO_ENABLE = yes
+DEFERRED_EXEC_ENABLE = yes
+
+BOOTMAGIC_ENABLE = yes      # Enable Bootmagic Lite
+MOUSEKEY_ENABLE = no       # Mouse keys
+EXTRAKEY_ENABLE = yes       # Audio control and System control
+CONSOLE_ENABLE = yes        # Console for debug
+COMMAND_ENABLE = yes        # Commands for debug and configuration
+NKRO_ENABLE = yes            # Enable N-Key Rollover
+BACKLIGHT_ENABLE = yes       # Enable keyboard backlight functionality
+KEY_LOCK_ENABLE = yes    # Enable KC_LOCK support (QK_LOCK)
